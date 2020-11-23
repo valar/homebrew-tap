@@ -7,6 +7,7 @@ class Valar < Formula
   url "https://github.com/valar/cli/archive/v1.1.0.zip"
   sha256 "25dafb1492ca6691dbbdee05e99ef48f4f9292f64651e79bb8b4075d0c36be56"
   license "Apache-2.0"
+  head "https://github.com/valar/cli.git"
 
   depends_on "go" => :build
 
