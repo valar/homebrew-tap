@@ -10,6 +10,7 @@ class Valar < Formula
   head "https://github.com/valar/cli.git"
 
   depends_on "go" => :build
+  depends_on "make" => :build
 
   def install
     system "make"
