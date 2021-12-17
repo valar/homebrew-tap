@@ -1,4 +1,5 @@
 name: brew bump-formulae
+on: workflow_dispatch
 jobs:
   bump-formulae:
     runs-on: ubuntu-latest
