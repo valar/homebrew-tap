@@ -1,0 +1,15 @@
+name: brew bump-formulae
+jobs:
+  bump-formulae:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+      - name: Set up git
+        uses: Homebrew/actions/git-user-config@master
+      - name: Bump formulae
+        uses: Homebrew/actions/bump-formulae@master
+        with:
+          token: ${{secrets.TOKEN}}
+          formulae: |
+            valar
