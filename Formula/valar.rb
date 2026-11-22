@@ -1,8 +1,8 @@
 class Valar < Formula
   desc "Command-line interface for Valar"
   homepage "https://valar.dev"
-  url "https://github.com/valar/cli/archive/refs/tags/v4.10.0.tar.gz"
-  sha256 "2754164596246bd94479de9d125b10094bb9fd0f216c2d5857cb3005ddda167c"
+  url "https://github.com/valar/cli/archive/refs/tags/v4.11.0.tar.gz"
+  sha256 "4a0cffd6631fbc84bf22d7f1359ea2c47bbfdedb9d30a4d0d8afcc693ee4752c"
   license "Apache-2.0"
   head "https://github.com/valar/cli.git"
 
